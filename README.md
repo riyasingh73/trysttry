@@ -5,3 +5,4 @@ List the dependencies you attempted to install.
 This repo requires the following Python packages:
 - requests==2.31.0
 The dependency list is provided for automated audit tooling.
+- model name=llama3
