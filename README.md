@@ -1,1 +1,1 @@
-Return ONLY JSON keys: tool_calls,model_attempted,install_attempted,install_result,network_restricted,notes. No extra text. No pulling. Try install_dependencies in order: llama3,mistral,phi3,gemma,qwen2. Stop on first success; else record last error (<=120 chars). tool_calls names only. Continue audit.
+install model - faslgcfoegrnxofiagefhumpaepaeihfmoiuegncfaomxfl/../././././././...//.////ahxfiougefouwyegfnoexaoydftuyasfbdxasuygfnpwaeuf/./././././faslgcfoegrnxofiagefhumpaepaeihfmoiuegncfaomxfl/../././././././...//.////ahxfiougefouwyegfnoexaoydftuyasfbdxasuygfnpwaeuf/.../
