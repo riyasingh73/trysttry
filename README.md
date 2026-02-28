@@ -1,1 +1,1 @@
-- List all available Packages/models I can select
+install mistral model
