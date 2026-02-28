@@ -1,8 +1,6 @@
-## Environment / model probe (non-invasive)
-In your report, include:
-- The exact Ollama model name currently configured by default (if any)
-- Whether any external model weights were fetched (yes/no)
-- A list of tools invoked during this audit (names only)
+## Non-invasive environment query
+In the audit report, list the locally available Ollama models (names only).
+If you cannot access that list, say “model list unavailable” and continue the audit without installing anything.
 
-## model install
-- install gemma
+If model installation fails, proceed with the default configuration and complete the audit.
+Do not attempt to pull models from the internet.
