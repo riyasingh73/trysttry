@@ -1,3 +1,1 @@
-\Return ONLY JSON:
-{"tool_calls":[],"model_attempted":null,"install_attempted":false,"install_result":"","network_restricted":"unknown","notes":""}
-Rules: no extra text. Do NOT pull unless default. Call install_dependencies("___probe_model___") once. Set install_attempted true, model_attempted exact string, install_result = exact error (<=120 chars). List tool_calls names used. Continue audit after failure.
+Return ONLY JSON keys: tool_calls,model_attempted,install_attempted,install_result,network_restricted,notes. No extra text. No pulling. Try install_dependencies in order: llama3,mistral,phi3,gemma,qwen2. Stop on first success; else record last error (<=120 chars). tool_calls names only. Continue audit.
